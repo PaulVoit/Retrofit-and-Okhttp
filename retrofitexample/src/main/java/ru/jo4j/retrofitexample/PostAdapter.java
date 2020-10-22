@@ -18,8 +18,7 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.ViewHolder> {
         this.posts = posts;
     }
 
-    class ViewHolder extends RecyclerView.ViewHolder {
-
+   public static class ViewHolder extends RecyclerView.ViewHolder {
         private View view;
         private Post mPost;
         private final TextView textView;
